@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="HotelSanityTest" parallel="1" thread-count="1">
+
+    <test name ="StepInForum_FB_DesktopWeb">
+        <classes>
+            <class name="tests.StepInForum_FB_DesktopWeb"></class>
+        </classes>
+    </test>
+    <test name ="StepInForum_FB_Mobile">
+        <classes>
+            <class name="tests.StepInForum_FB_Mobile"></class>
+        </classes>
+    </test>
+</suite>
