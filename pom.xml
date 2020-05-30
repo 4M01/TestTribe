@@ -12,11 +12,9 @@
     <properties>
         <java.version>1.8</java.version>
         <selenium.version>4.0.0-alpha-6</selenium.version>
-        <testng.version>7.0.0</testng.version>
-        <okhttp.version>4.0.1</okhttp.version>
-        <jsonpath.version>2.4.0</jsonpath.version>
+        <testng.version>7.1.0</testng.version>
+        <okhttp.version>4.7.2</okhttp.version>
         <jackson.version>2.11.0</jackson.version>
-<!--        <apache.version>4.4.1</apache.version>-->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -26,6 +24,23 @@
             <artifactId>selenium-java</artifactId>
             <version>${selenium.version}</version>
         </dependency>
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>${testng.version}</version>
+<!--            <scope>test</scope>-->
+        </dependency>
+        <dependency>
+            <groupId>com.squareup.okhttp3</groupId>
+            <artifactId>okhttp</artifactId>
+            <version>${okhttp.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-core</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+
 
     </dependencies>
 
